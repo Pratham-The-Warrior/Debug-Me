@@ -28,9 +28,6 @@ Understand your logic gaps with intelligent post-solution insights. Learn optima
 ### 📚 Smart Problem Vault  
 Store your favorite, tough, or unique problems in your private vault. Add tags, notes, and revisit them anytime.
 
-### 🏆 Competitive Programming Arena  
-Compete in practice contests, climb up the leaderboard, and challenge your friends. 
-
 ### 📈 Progress Tracker  
 Get visualized reports of your coding journey—track solved problems, categories, and daily streaks.
 
