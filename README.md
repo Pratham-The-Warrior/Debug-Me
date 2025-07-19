@@ -1,65 +1,78 @@
+# 🐞 Debug Me
 
-# 🐞 Debug Me - Level Up Your Code
-
-**Welcome to Debug Me!**  
-Your ultimate destination to master Competitive Programming, DSA , and everything in between.
-
-Whether you're just starting out or already a coding warrior, Debug Me gives you a fun, feature-packed environment to sharpen your skills, track your growth, and build your personal problem-solving arsenal.
+**Debug Me** is a application designed to **verify individuals' problem-solving achievements** and help **recruiters find authentic coding talent**.  
+It connects to coding platforms like **Codeforces**, **LeetCode**, and more, then runs **automated verification checks**, **plagiarism detection**, and **behavioral analysis**.
 
 ---
 
-## 🚀 What is Debug Me?
+## 🚀 What It Does
 
-**Debug Me** is a coding enthusiast’s platform built to help students, learners, and professionals:
+Debug Me solves a critical problem: **verifying coding credibility**.
 
-- 🧠 Sharpen DSA and problem-solving skills  
-- 🏁 Boost performance in Competitive Programming  
-- 📊 Analyze strengths, weaknesses, and patterns  
-- 💾 Save and revisit key problems and logics 
-- 📈 Track progress with smart stats and analytics  
-
----
-
-## 💡 Key Features
-
-### 🔍 Problem Analyzer  
-Understand your logic gaps with intelligent post-solution insights. Learn optimal techniques and get personalized improvement tips.
-
-### 📚 Smart Problem Vault  
-Store your favorite, tough, or unique problems in your private vault. Add tags, notes, and revisit them anytime.
-
-### 📈 Progress Tracker  
-Get visualized reports of your coding journey—track solved problems, categories, and daily streaks.
-
-### 🎯 Goal Setter  
-Set daily or weekly coding goals. Stay on track with motivational nudges and reward milestones.
-
-### 🌐 Clean & Cool Coding Environment  
-Run, test, and debug code in a distraction-free, modern IDE. Customize with themes, syntax highlighting, and auto-suggestions.
-
-### 🧠 Personalized Learning Paths *(Coming Soon)*  
-Roadmaps tailored to your pace and interests—whether it's CP or cracking coding interviews.
+- 🔗 Connects with coding platforms (Codeforces, LeetCode, CodeChef, etc.)
+- ✅ Confirms profile ownership via custom verification methods
+- 🔍 Detects code plagiarism using tools like **MOSS** or **JPlag**
+- 📊 Analyzes behavior for suspicious activity (e.g. copy-paste abuse, fake spikes)
+- 🧑‍💼 Offers recruiters a dashboard to search, filter, and shortlist verified candidates
 
 ---
 
-## 👨‍💻 Who's It For?
+## 🔧 Tech Stack
 
-- High school & college students learning to code  
-- Aspiring software engineers preparing for interviews  
-- Competitive programmers looking to level up  
-- Anyone wanting to master debugging and problem-solving
-
----
-
-## 🧱 Tech Stack   
-
-- **Frontend**: React.js, HTML, CSS, Tailwind  
-- **Backend**: Node.js, Express  
-- **Database**: MongoDB / PostgreSQL  
-- **Others**: Code execution sandbox, Chart.js, Auth0 (Authentication)
+| Layer        | Technology                     |
+|--------------|--------------------------------|
+| Frontend     | React.js, Tailwind CSS, Axios  |
+| Backend      | Node.js, Express.js, MongoDB   |
+| Auth         | JWT, bcrypt                    |
+| Scraping     | Puppeteer, Cheerio             |
+| Plagiarism   | MOSS, JPlag (CLI integrated)   |
+| Execution    | Judge0 API (optional)          |
+| Deployment   | Docker, Vercel/Heroku support  |
 
 ---
 
+## 🌐 Core Features
+
+### 👤 User Side
+- Connect multiple coding accounts
+- Prove ownership via:
+  - Solving a system-generated challenge
+  - Adding a token to profile bio
+- View your trust score and verified badge
+- See analytics about your coding behavior
+
+### 🧑‍💼 Recruiter Side
+- Browse and search talent by platform, skill, badge
+- View full profile including verified achievements
+- Export profile to resume (PDF)
+- Contact users for interviews (future)
+
+### 🔐 Verification System
+- Scrapes public problem-solving data
+- Matches coding style for consistency
+- Flags copied submissions using Moss or JPlag
+- Detects time-based anomalies (e.g. multiple accounts, rapid solving)
+
+---
+
+## 📁 Folder Structure
+
+debug-me/
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── utils/
+│ │ ├── scrapers/
+│ │ ├── plagiarism/
+│ │ └── analyzers/
+│ └── server.js
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── App.js
+├── README.md
 
 
 ## 🧩 Contributing
@@ -74,6 +87,4 @@ Got questions or ideas?
 🌐 Website: still in progress...
 
 ---
-
-*At last*
-> _“Debugging is like being the detective in a crime movie where you're also the murderer.”_ — "Filipe Fortes"
+> _“Don't tell them you're a great problem solver. Show them.”_
