@@ -1,6 +1,6 @@
-# 🐞 Debug Me
+# TRUECODER
 
-**Debug Me** is a application designed to **verify individuals' problem-solving achievements** and help **recruiters find authentic coding talent**.  
+**TRUECODER** is a application designed to **verify individuals' problem-solving achievements** and help **recruiters find authentic coding talent**.  
 It connects to coding platforms like **Codeforces**, **LeetCode**, and more, then runs **automated verification checks**, **plagiarism detection**, and **behavioral analysis**.
 
 ---
@@ -57,7 +57,7 @@ Debug Me solves a critical problem: **verifying coding credibility**.
 
 ## 📁 Folder Structure
 
-debug-me/
+truecoder/
 ├── backend/
 │ ├── controllers/
 │ ├── models/
